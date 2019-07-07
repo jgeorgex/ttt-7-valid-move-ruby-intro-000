@@ -1,6 +1,6 @@
 # code your #valid_move? method here
 def valid_move?(board, index)
-  if index(0..9)
+  if board[index] == 0
     return true
   end
 end
